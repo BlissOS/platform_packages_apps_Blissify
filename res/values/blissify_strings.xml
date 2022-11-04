@@ -626,4 +626,8 @@
     <string name="lockscreen_albumart_filter_blur">Blur</string>
     <string name="lockscreen_albumart_filter_grayblur">Grayscale and blurred</string>
 
+    <!-- Force mouse click as touch -->
+    <string name="force_click_as_touch">Force mouse click as touch</string>
+    <string name="force_click_as_touch_summary">Allow forcing mouse click as touch, recommend for apps that doesn\'t recognize mouse.</string>
+
 </resources>
