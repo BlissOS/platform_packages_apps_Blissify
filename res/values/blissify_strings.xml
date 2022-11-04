@@ -543,4 +543,8 @@
     <string name="smart_pixels_shift_title">Burn-in protection</string>
     <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
 
+    <!-- Force mouse click as touch -->
+    <string name="force_click_as_touch">Force mouse click as touch</string>
+    <string name="force_click_as_touch_summary">Allow forcing mouse click as touch, recommend for apps that doesn\'t recognize mouse.</string>
+
 </resources>
