@@ -271,6 +271,9 @@
     <string name="netflix_spoof_title">Netflix Spoof</string>
     <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
 
+    <!-- Bliss OS options -->
+    <string name="blissos_options_category">BlissOS Features</string>
+
     <!-- Force mouse click as touch -->
     <string name="force_click_as_touch">Force mouse click as touch</string>
     <string name="force_click_as_touch_summary">Allow forcing mouse click as touch, recommend for apps that doesn\'t recognize mouse.</string>
