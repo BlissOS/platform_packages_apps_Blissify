@@ -768,6 +768,9 @@
      The progress bar dynamically switches between media and download states, ensuring you always have the most relevant information at a glance."
     </string>
 
+    <!-- Bliss OS options -->
+    <string name="blissos_options_category">BlissOS Features</string>
+
     <!-- Force mouse click as touch -->
     <string name="force_click_as_touch">Force mouse click as touch</string>
     <string name="force_click_as_touch_summary">Allow forcing mouse click as touch, recommend for apps that doesn\'t recognize mouse.</string>

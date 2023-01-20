@@ -75,10 +75,16 @@
         android:summary="@string/usb_default_config_summary"
         android:fragment="com.android.settings.connecteddevice.usb.UsbDefaultFragment" />
 
+    <PreferenceCategory
+        android:key="blissos_options_category"
+        android:title="@string/blissos_options_category">
+
     <org.blissroms.blissify.preferences.SystemSettingSwitchPreference
             android:key="force_mouse_as_touch"
             android:title="@string/force_click_as_touch"
             android:summary="@string/force_click_as_touch_summary"
             settings:iconSpaceReserved="false"
             android:defaultValue="false" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
