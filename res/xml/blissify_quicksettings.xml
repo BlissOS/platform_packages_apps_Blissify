@@ -31,7 +31,7 @@
                 settings:isPreferenceVisible="false" />
     </PreferenceCategory>
 
-     <PreferenceCategory
+<!--     <PreferenceCategory
         android:key="quick_settings_battery_category"
         android:title="@string/battery_title">
 
@@ -43,7 +43,7 @@
             android:defaultValue="true" />
 
     </PreferenceCategory>
-
+-->
     <PreferenceCategory
         android:title="@string/qs_brightness_category_title">
 
@@ -59,6 +59,13 @@
             android:title="@string/qs_brightness_slider_position_title"
             android:entries="@array/qs_brightness_slider_position_entries"
             android:entryValues="@array/qs_brightness_slider_position_values"
+            android:defaultValue="0" />
+
+        <com.bliss.support.preferences.SecureSettingListPreference
+            android:key="brightness_slider_style"
+            android:title="@string/brightness_slider_style_title"
+            android:entries="@array/brightness_slider_style_entries"
+            android:entryValues="@array/brightness_slider_style_values"
             android:defaultValue="0" />
 
         <com.bliss.support.preferences.SecureSettingSwitchPreference

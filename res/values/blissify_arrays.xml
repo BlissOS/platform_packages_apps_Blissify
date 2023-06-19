@@ -214,17 +214,40 @@
         <item>preset</item>
     </string-array>
 
-    <!-- Battery customizations -->
+    <!-- Status bar - Battery -->
     <string-array name="status_bar_battery_style_entries" translatable="false">
-        <item>@string/battery_style_port</item>
-        <item>@string/battery_style_circle</item>
-        <item>@string/battery_style_text</item>
+        <item>@string/status_bar_battery_style_icon_portrait</item>
+        <item>@string/status_bar_battery_style_circle</item>
+        <item>@string/status_bar_battery_style_dotted_circle</item>
+        <item>@string/status_bar_battery_style_icon_rlandscape</item>
+        <item>@string/status_bar_battery_style_icon_landscape</item>
+        <item>@string/status_bar_battery_style_text</item>
+        <item>@string/status_bar_battery_style_hidden</item>
+        
     </string-array>
 
     <string-array name="status_bar_battery_style_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="status_bar_battery_percent_entries">
+        <item>@string/status_bar_battery_percent_hidden</item>
+        <item>@string/status_bar_battery_percent_text_inside</item>
+        <item>@string/status_bar_battery_percent_text_next_right</item>
+        <item>@string/status_bar_battery_percent_text_next_left</item>
+    </string-array>
+
+    <string-array name="status_bar_battery_percent_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 
     <!-- Lockscreen charging °F/°C -->
@@ -294,6 +317,19 @@
         <item>@string/transistent_task_mode_force</item>
     </string-array>
     <string-array name="transistent_task_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Brightness slider styles -->
+    <string-array name="brightness_slider_style_entries" translatable="false">
+        <item>@string/brightness_slider_style_default</item>
+        <item>@string/brightness_slider_style_filled</item>
+        <item>@string/brightness_slider_style_thin</item>
+    </string-array>
+
+    <string-array name="brightness_slider_style_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
