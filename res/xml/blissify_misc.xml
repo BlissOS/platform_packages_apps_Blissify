@@ -63,6 +63,12 @@
         android:entries="@array/transistent_task_mode_entries"
         android:entryValues="@array/transistent_task_mode_values"
         android:defaultValue="0" />
+    <com.bliss.support.preferences.SystemSettingSwitchPreference
+        android:key="alert_window_bypass_low_ram"
+        android:title="@string/bypass_low_ram"
+        android:summary="@string/bypass_low_ram_summary"
+        settings:iconSpaceReserved="false"
+        android:defaultValue="false" />
          </PreferenceCategory>
 
 </PreferenceScreen>
