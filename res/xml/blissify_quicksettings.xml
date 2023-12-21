@@ -27,9 +27,9 @@
      <com.bliss.support.preferences.SystemSettingSeekBarPreference
             android:key="qs_header_image"
             android:title="@string/qs_header_image_title"
-            android:defaultValue="69"
+            android:defaultValue="0"
             settings:interval="1"
-            android:max="70"
+            android:max="64"
             android:min="0" />
 
     </PreferenceCategory>
