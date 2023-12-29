@@ -41,6 +41,11 @@
             android:defaultValue="true" />
 
         <com.bliss.support.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_sleep"
+            android:title="@string/powermenu_sleep"
+            android:defaultValue="true" />
+
+        <com.bliss.support.preferences.SystemSettingSwitchPreference
             android:key="powermenu_advanced"
             android:title="@string/powermenu_advanced"
             android:defaultValue="true" />
