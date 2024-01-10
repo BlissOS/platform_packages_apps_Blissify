@@ -533,6 +533,10 @@
     <string name="less_boring_heads_up_title">Less boring heads up</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer, messaging and alarm app</string>
 
+    <!-- Taskbar -->
+    <string name="enable_taskbar_title">Enable Taskbar</string>
+    <string name="enable_taskbar_summary">Enable the taskbar that is only available on tablets</string>
+
      <!-- Bypass low ram blocking -->
     <string name="bypass_low_ram">Bypass restrictions on Low RAM devices or Go builds</string>
     <string name="bypass_low_ram_summary">Allowing apps to grant system alert window permissions and draw over other apps in low RAM devices or Go builds.</string>

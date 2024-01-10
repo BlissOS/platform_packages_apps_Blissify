@@ -8,6 +8,11 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/blissify_buttons_title">
 
+    <SwitchPreference
+        android:key="enable_taskbar"
+        android:title="@string/enable_taskbar_title"
+        android:summary="@string/enable_taskbar_summary" />
+
    <PreferenceCategory
         android:key="volume_category"
         android:title="@string/volume_category">
