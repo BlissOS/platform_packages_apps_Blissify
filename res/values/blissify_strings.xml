@@ -296,4 +296,51 @@
      <!-- Bypass low ram blocking -->
     <string name="bypass_low_ram">Bypass restrictions on Low RAM devices or Go builds</string>
     <string name="bypass_low_ram_summary">Allowing apps to grant system alert window permissions and draw over other apps in low RAM devices or Go builds.</string>
+
+    <!-- Pif -->
+    <string name="pif_title">Play integrity fix</string>
+    <string name="pif_summary">View current values used to spoof GMS</string>
+    <string name="pif_spoof_title">Enable ROM-side Play integrity fix</string>
+    <string name="pif_spoof_summary">Disable to allow module usage with custom fingerprint values</string>
+
+    <!-- PixelProps -->
+    <string name="spoof_as_pixel_title">Enable Pixel Props</string>
+    <string name="spoof_as_pixel_summary">Spoof your device as Pixel 5 for Google apps. Keep enabled on non-Pixel devices</string>
+    <string name="spoof_recent_pixel_title">Spoof as Pixel 8 Pro</string>
+    <string name="spoof_recent_pixel_summary">Spoof your device as Pixel 8 Pro for our selected Google apps. Turn off when using a real Pixel device</string>
+    <string name="spoof_recent_pixel_all_title">Spoof as Pixel 8 Pro for all Google apps</string>
+    <string name="spoof_recent_pixel_all_summary">Spoof your device as Pixel 8 Pro for all Google apps. Turn off when using a real Pixel device. May lead to unintended heating or battery drain</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+
+    <!-- 4G icon -->
+    <string name="fourg_icon_title">4G icon</string>
+    <string name="fourg_icon_summary">Display 4G icon instead of LTE</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+
+    <!-- UDFPS Recog Animation -->
+    <string name="udfps_settings_title">UDFPS settings</string>
+    <string name="udfps_settings_summary">Settings for customizing the UDFPS</string>
+
+    <!-- UDFPS animation -->
+    <string name="udfps_animation_title">UDFPS animation effect</string>
+    <string name="udfps_animation_summary">Choose animation effect</string>
+
+    <!-- Screen off UDFPS -->
+    <string name="screen_off_udfps_title">Screen off UDFPS</string>
+    <string name="screen_off_udfps_summary">Keep UDFPS enabled when the screen is off</string>
+
 </resources>

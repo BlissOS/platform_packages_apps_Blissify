@@ -75,6 +75,25 @@
                  android:targetClass="org.omnirom.omnijaws.SettingsActivity" />
         </Preference>
 
+        <com.bliss.support.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_battery_info"
+            android:title="@string/lockscreen_battery_info_title"
+            android:summary="@string/lockscreen_battery_info_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <!-- Udfps options -->
+    <PreferenceCategory
+        android:key="udfps_category"
+        android:title="@string/udfps_category">
+
+        <Preference
+            android:key="udfps_settings"
+            android:title="@string/udfps_settings_title"
+            android:summary="@string/udfps_settings_summary"
+            android:fragment="org.blissroms.blissify.fragments.lockscreen.Udfps" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
