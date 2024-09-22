@@ -146,7 +146,7 @@
             android:max="5"
             settings:min="2"
             settings:interval="1"
-            android:defaultValue="4" />
+            android:defaultValue="3" />
 
         <com.bliss.support.preferences.SystemSettingSeekBarPreference
             android:key="qs_layout_rows"
@@ -162,7 +162,7 @@
             android:max="3"
             settings:min="1"
             settings:interval="1"
-            android:defaultValue="2" />
+            android:defaultValue="3" />
 
         <!-- Quick QS rows (portrait) -->
         <com.bliss.support.preferences.SystemSettingSeekBarPreference
